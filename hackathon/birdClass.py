@@ -3,6 +3,7 @@ import neat  # machine learning software
 import time
 import os
 import random
+import globalConstants
 
 #Import Images as an array of the three bird images
 BIRD_IMGS = [pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bird1.png"))), pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bird2.png"))), pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bird3.png")))]

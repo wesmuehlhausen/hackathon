@@ -4,10 +4,8 @@ import time
 import os
 import random
 import birdClass
+import globalConstants
 
-#Constants
-WINDOW_WIDTH = 600
-WINDOW_HEIGHT = 800
 
 
 
@@ -23,7 +21,7 @@ def draw_window(bird, win):
 def main():
     #Create objects
     bird = birdClass.Bird(200, 200)
-    win = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+    win = pygame.display.set_mode((globalConstants.WINDOW_WIDTH, globalConstants.WINDOW_HEIGHT))
 
     run = True
     while run:
